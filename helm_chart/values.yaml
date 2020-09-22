@@ -29,6 +29,12 @@ database:
 
 opsManager:
   name: mongodb-enterprise-ops-manager
+  # enabled: true
+  adminCredentials:
+    FirstName: Jane
+    LastName: Doe
+    Username: jane.doe@example.com
+    Password: Passw0rd.
 
 initOpsManager:
   name: mongodb-enterprise-init-ops-manager
